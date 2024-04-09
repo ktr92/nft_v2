@@ -145,6 +145,128 @@ width: get-vw-large(471px);;
   justify-content: center;
 }
 
+
+.mentionspage {
+}
+.mentionspage__items {
+}
+.mentionspage__item {
+  margin-bottom: get-vw-large(50px);
+}
+.mentionsblock {
+}
+.mentionsblock__wrapper {
+  display: flex;
+}
+.mentionsblock__aside {
+}
+.mentionsaside {
+  width: get-vw-large(280px);
+  margin-right: get-vw-large(22px);
+}
+.mentionsaside__title {
+  margin-bottom: get-vw-large(20px);
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.mentionsaside__name {
+  font-size: get-vw-large(26px);
+  font-weight: bold;
+  display: block;
+  margin-right: get-vw-large(12px);
+}
+.mentionsaside__stickers {
+  display: flex;
+}
+.mentionsaside__sticker {
+  font-size: get-vw-large(12px);
+  font-weight: bold;
+  padding: get-vw-large(1px) get-vw-large(5px);
+  border-radius: get-vw-large(5555px);
+}
+
+.mentionsaside__sticker_new {
+  background: #F8444F;
+  color: #fff;
+}
+.mentionsaside__params {
+}
+.mentionsaside__param {
+  font-size: get-vw-large(18px);
+  margin-bottom: get-vw-large(9px);
+  font-weight: bold;
+}
+/* .mentionsblock__main {
+  width: calc(100% - 302px);
+} */
+
+.mentionsblock__main {
+}
+.mentionsmain {
+}
+.mentionsmain__wrapper {
+}
+.mentionsmain__items {
+  max-height: get-vw-large(274px);
+  overflow-y: auto;
+  padding-right: get-vw-large(19px);
+
+}
+.mentionsmain__item {
+  margin-bottom: get-vw-large(6px);
+}
+.mentionscard {
+}
+.mentionscard__wrapper {
+  display: flex;
+  align-items: center;
+  padding: get-vw-large(8px) get-vw-large(15px);
+  border-radius: get-vw-large(12px);
+  overflow: hidden;
+  background: #F3F5F8;
+}
+.mentionscard__aside {
+  max-width: get-vw-large(165px);
+  min-width: get-vw-large(165px);
+  padding-right: get-vw-large(15px);
+}
+.mentionscard__name {
+  margin-bottom: get-vw-large(3px);
+  line-height: 100%;
+  a {
+    display: block;
+    line-height: 100%;
+    color: #0085FF;
+    font-size: get-vw-large(14px);
+    font-weight: bold;
+  }
+}
+.mentionscard__info {
+  font-size: get-vw-large(14px);
+  color: rgba(33,37,49,0.5);
+}
+.mentionscard__main {
+}
+.mentionscard__content {
+  font-size: get-vw-large(16px);
+  line-height: 100%;
+
+}
+
+.mentionspage {
+  margin-bottom: get-vw-large(50px);
+}
+
+.mentionsmain__item_off{
+  .mentionscard__name {
+    a {
+      color: rgba(33,37,49,0.3);
+    }
+  }
+}
+
+
 @media (min-width: 1921px) {
   .emptyblock_lg .emptyblock__wrapper {
     min-height: get-vw-xxlarge(528px);
@@ -252,5 +374,83 @@ width: get-vw-large(471px);;
     width: get-vw-xxlarge(218px);
   }
 
+
+
+  .mentionspage__item {
+    margin-bottom: get-vw-xxlarge(50px);
+  }
+  
+  .mentionsaside {
+    width: get-vw-xxlarge(280px);
+    margin-right: get-vw-xxlarge(22px);
+  }
+  .mentionsaside__title {
+    margin-bottom: get-vw-xxlarge(20px);
+   
+  }
+  .mentionsaside__name {
+    font-size: get-vw-xxlarge(26px);
+    margin-right: get-vw-xxlarge(12px);
+  }
+
+  .mentionsaside__sticker {
+    font-size: get-vw-xxlarge(12px);
+    font-weight: bold;
+    padding: get-vw-xxlarge(1px) get-vw-xxlarge(5px);
+    border-radius: get-vw-xxlarge(5555px);
+  }
+ 
+  .mentionsaside__param {
+    font-size: get-vw-xxlarge(18px);
+    margin-bottom: get-vw-xxlarge(9px);
+  }
+  /* .mentionsblock__main {
+    width: calc(100% - 302px);
+  } */
+  
+  .mentionsmain__items {
+    max-height: get-vw-xxlarge(274px);
+    padding-right: get-vw-xxlarge(19px);
+  
+  }
+  .mentionsmain__item {
+    margin-bottom: get-vw-xxlarge(6px);
+  }
+
+  .mentionscard__wrapper {
+    display: flex;
+    align-items: center;
+    padding: get-vw-xxlarge(8px) get-vw-xxlarge(15px);
+    border-radius: get-vw-xxlarge(12px);
+    overflow: hidden;
+    background: #F3F5F8;
+  }
+  .mentionscard__aside {
+    max-width: get-vw-xxlarge(165px);
+    min-width: get-vw-xxlarge(165px);
+    padding-right: get-vw-xxlarge(15px);
+  }
+  .mentionscard__name {
+    margin-bottom: get-vw-xxlarge(3px);
+    a {
+      font-size: get-vw-xxlarge(14px);
+    }
+  }
+  .mentionscard__info {
+    font-size: get-vw-xxlarge(14px);
+  }
+  .mentionscard__main {
+  }
+  .mentionscard__content {
+    font-size: get-vw-xxlarge(16px);
+  
+  }
+  
+  .mentionspage {
+    margin-bottom: get-vw-xxlarge(50px);
+  }
+  
+  
+  
  
 }
