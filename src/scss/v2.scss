@@ -172,6 +172,7 @@ width: get-vw-large(471px);;
 }
 .mentionsaside__name {
   font-size: get-vw-large(26px);
+  color: #212531;
   font-weight: bold;
   display: block;
   margin-right: get-vw-large(12px);
@@ -189,6 +190,9 @@ width: get-vw-large(471px);;
 .mentionsaside__sticker_new {
   background: #F8444F;
   color: #fff;
+}
+.mentionsmain__button {
+  display: none;
 }
 .mentionsaside__params {
 }
