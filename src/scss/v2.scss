@@ -282,9 +282,111 @@ width: get-vw-large(471px);;
 .modal-submit_v2 {
   margin-top: get-vw-large(45px);
 }
+.modal_md{
+  .modal-dialog {
+    width: get-vw-large(711px);
+  }
+}
 
+.modalinfo__title {
+  a {
+    color: #0085FF;
+  }
+}
+
+.informblock {
+  margin-bottom: get-vw-large(12px);
+}
+
+.informblock {
+  border-radius: get-vw-large(8px);
+  padding: get-vw-large(11px) get-vw-large(24px) get-vw-large(4px) get-vw-large(19px);
+  overflow: hidden;
+  min-height:  get-vw-large(76px);
+  display: flex;
+  align-items: center;
+}
+
+.informblock__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.informblock__icon {
+  margin-right: get-vw-large(17px);
+}
+
+
+.informblock__content {
+  font-weight: 500;
+}
+
+.informblock__text {
+  font-size: get-vw-large(14px);
+}
+.informblock__text_lg {
+  font-size: get-vw-large(16px);
+}
+.informblock_green {
+  background: linear-gradient(90deg, rgba(48, 202, 76, 0.15) 0%, #fff 100%);
+
+}
+.informblock_yellow {
+  background: linear-gradient(90deg, rgba(245, 197, 25, 0.15) 0%, #fff 100%);
+
+}
 
 @media (min-width: 1921px) {
+
+  .modal-submit_v2 {
+    margin-top: get-vw-xxlarge(45px);
+  }
+  .modal_md{
+    .modal-dialog {
+      width: get-vw-xxlarge(711px);
+    }
+  }
+  
+  .modalinfo__title {
+    a {
+      color: #0085FF;
+    }
+  }
+  
+  .informblock {
+    margin-bottom: get-vw-xxlarge(12px);
+  }
+  
+  .informblock {
+    border-radius: get-vw-xxlarge(8px);
+    padding: get-vw-xxlarge(11px) get-vw-xxlarge(24px) get-vw-xxlarge(4px) get-vw-xxlarge(19px);
+    overflow: hidden;
+    min-height:  get-vw-xxlarge(76px);
+  }
+  
+  .informblock__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .informblock__icon {
+    margin-right: get-vw-xxlarge(17px);
+  }
+  
+  
+  .informblock__content {
+    font-weight: 500;
+  }
+  
+  .informblock__text {
+    font-size: get-vw-xxlarge(14px);
+  }
+  .informblock__text_lg {
+    font-size: get-vw-xxlarge(16px);
+  }
+
   .emptyblock_lg .emptyblock__wrapper {
     min-height: get-vw-xxlarge(528px);
   }
