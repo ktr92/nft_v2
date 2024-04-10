@@ -272,9 +272,29 @@
   .mentionsmain__item_hidden {
     display: none;
   }
+  .textlogin__link a {
+   
+    span {
+      padding-left: get-vw-medium(6px);
+    }
+  }
+
+  
+  .modal-submit_v2 {
+    margin-top: get-vw-xxlarge(35px);
+  }
   
 }
 @include small-screen {
+
+  .textlogin_v2 {
+    margin-top: get-vw-xxlarge(27px);
+  }
+  .modal-submit_v2 {
+    margin-top: get-vw-xxlarge(26px);
+  }
+
+
   .emptyblock_lg .emptyblock__wrapper {
     min-height: get-vw-small(228px);
   }
@@ -692,6 +712,13 @@
   }
   .mentionsmain__item_hidden {
     display: none;
+  }
+
+  .textlogin__link a {
+   
+    span {
+      padding-left: get-vw-small(6px);
+    }
   }
 }
 
