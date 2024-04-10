@@ -7686,7 +7686,8 @@ a.tableblock__row {
     height: 2.91667vw; }
 
 .emptyblock_lg .emptyblock__wrapper {
-  justify-content: center; }
+  justify-content: center;
+  min-height: 69vh; }
 
 .mentionspage__item {
   margin-bottom: 2.60417vw; }
@@ -7792,8 +7793,10 @@ a.tableblock__row {
 .modal_md .modal-dialog {
   width: 37.03125vw; }
 
-.modalinfo__title a {
-  color: #0085FF; }
+.modalinfo__title {
+  line-height: 120%; }
+  .modalinfo__title a {
+    color: #0085FF; }
 
 .informblock {
   margin-bottom: 0.625vw; }
@@ -7829,7 +7832,12 @@ a.tableblock__row {
 .informblock_yellow {
   background: linear-gradient(90deg, rgba(245, 197, 25, 0.15) 0%, #fff 100%); }
 
+.sitefooter_v2 .sitefooter__wrapper {
+  padding: 1.5625vw 0; }
+
 @media (min-width: 1921px) {
+  .sitefooter_v2 .sitefooter__wrapper {
+    padding: 30px 0; }
   .modal-submit_v2 {
     margin-top: 45px; }
   .modal_md .modal-dialog {
@@ -15545,7 +15553,10 @@ p {
       bottom: unset;
       left: unset;
       /*     height: get-vw-medium(32px); */
-      width: 29.3765vw; }
+      width: 100%;
+      transform: translateY(-1px); }
+    .pagesearch__slide .headersearch__bg {
+      width: 100%; }
   .linkset_v2 {
     padding-left: 0;
     margin-left: 0;
@@ -15698,15 +15709,32 @@ p {
   .informblock__text {
     font-size: 1.67866vw; }
   .informblock__text_lg {
-    font-size: 1.67866vw; } }
+    font-size: 1.67866vw; }
+  .sitefooter_v2 .sitefooter__wrapper {
+    padding: 2.39808vw 0; }
+  .buttonsrow {
+    justify-content: center; } }
 
 @media only screen and (max-width: 600px) {
+  .sitefooter_v2 .sitefooter__wrapper {
+    padding: 6.25vw 0; }
+  .siteheader_v2 .menubutton {
+    height: 5.3125vw;
+    width: 8.125vw; }
+  .siteheader_v2 .headersearch__button img {
+    width: 6.875vw;
+    height: 6.875vw; }
+  .pagesearch__slide .headersearch__button {
+    width: 6.875vw;
+    height: 6.875vw; }
   .textlogin_v2 {
-    margin-top: 27px; }
+    margin-top: 8.4375vw; }
   .modal-submit_v2 {
-    margin-top: 26px; }
-  .emptyblock_lg .emptyblock__wrapper {
-    min-height: 71.25vw; }
+    margin-top: 8.125vw; }
+  /*  .emptyblock_lg .emptyblock__wrapper {
+    min-height: get-vw-small(228px);
+  }
+ */
   .itemsnav__right .pagesearch_v2 {
     width: 147.1875vw; }
   .pagesearch_v2 .searchinput {
