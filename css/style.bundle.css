@@ -7634,7 +7634,10 @@ a.tableblock__row {
   height: unset; }
 
 .maincontent_v2 {
-  margin-top: 0; }
+  margin-top: 0 !important; }
+
+.maincontent_full {
+  height: 100%; }
 
 .tabsnav__links .tabsbuttons li a {
   padding: 0.78125vw 1.66667vw;
@@ -7685,9 +7688,24 @@ a.tableblock__row {
     top: 0;
     height: 2.91667vw; }
 
-.emptyblock_lg .emptyblock__wrapper {
+/* .emptyblock_lg .emptyblock__wrapper {
   justify-content: center;
-  min-height: 69vh; }
+  min-height: 69vh !important;
+} */
+.socials__item svg {
+  width: 1.14583vw; }
+
+body {
+  min-height: 100vh;
+  margin: 0; }
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+
+main {
+  flex: 1; }
 
 .mentionspage__item {
   margin-bottom: 2.60417vw; }
@@ -7835,6 +7853,10 @@ a.tableblock__row {
 .sitefooter_v2 .sitefooter__wrapper {
   padding: 1.5625vw 0; }
 
+.emptyblock_lg .emptyblock__wrapper {
+  min-height: 27.5vw;
+  justify-content: center; }
+
 @media (min-width: 1921px) {
   .sitefooter_v2 .sitefooter__wrapper {
     padding: 30px 0; }
@@ -7863,6 +7885,9 @@ a.tableblock__row {
     font-size: 14px; }
   .informblock__text_lg {
     font-size: 16px; }
+  /*   .emptyblock_lg .emptyblock__wrapper {
+    min-height: get-vw-xxlarge(528px);
+  } */
   .emptyblock_lg .emptyblock__wrapper {
     min-height: 528px; }
   .modal-submit_v2 {
@@ -15712,6 +15737,8 @@ p {
     font-size: 1.67866vw; }
   .sitefooter_v2 .sitefooter__wrapper {
     padding: 2.39808vw 0; }
+  .socials__item svg {
+    width: 2.63789vw; }
   .buttonsrow {
     justify-content: center; } }
 
@@ -15731,6 +15758,8 @@ p {
     margin-top: 8.4375vw; }
   .modal-submit_v2 {
     margin-top: 8.125vw; }
+  .socials__item svg {
+    width: 6.875vw; }
   /*  .emptyblock_lg .emptyblock__wrapper {
     min-height: get-vw-small(228px);
   }
@@ -15877,7 +15906,11 @@ p {
     padding: 4.6875vw 0; }
   .headersearch_v2 {
     min-width: 6.875vw;
-    margin-right: 4.0625vw; }
+    margin-right: 4.0625vw;
+    height: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
   .headersearch_v2 .pagesearch__slide a {
     width: 6.875vw;
     height: 6.875vw; }
@@ -15897,7 +15930,7 @@ p {
     position: relative; }
   .siteheader_v2 .headersearch.active {
     border-bottom: none;
-    transform: translateY(-4px); }
+    transform: translateY(0px); }
   .siteheader_v2 .headersearch, .siteheader_v2 .headersearch__bg {
     height: 10vw; }
   .siteheader_v2 .headersearch__button {
